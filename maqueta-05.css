@@ -1,0 +1,80 @@
+/* Inside your style.css file or <style> block */
+@font-face {
+  font-family: 'Jazmin-Black';
+  src: url('https://drive.google.com/file/d/12uQwB36a2k2witqSoXzjBPvjbGUJgkZl/view?usp=drive_link') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jazmin-Bold';
+  src: url('https://drive.google.com/file/d/1pTw8cej0ENtcqiHa-b2iS4OX-y_-E0P1/view?usp=sharing') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jazmin-BoldIt';
+  src: url('https://drive.google.com/file/d/1r_8uI4NWdWfFupj231C-FOblwJrJPHk5/view?usp=sharing') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Juana';
+  src: url('https://drive.google.com/file/d/1g9CO8TNBRDneP2i2aQZORjsLFqwX7QSJ/view?usp=sharing') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+  background:#e6d3ff ;
+
+}
+
+/* Titulo grande */
+h1 {
+  font-family: 'Jazmin-Black', serif;
+  font-weight: 150;
+  font-size: 10rem;
+  color: #2f1c49;
+}
+
+/*Titulo graande de uso normal*/
+
+h2 {
+  font-family: 'Jazmin-Bold', serif;
+  font-weight: 150;
+  font-size:8rem;
+  color: #2f1c49;
+}
+
+/*subtitulo parrafo*/
+h3 {
+  font-family: 'Juana', serif;
+  font-weight: 150;
+  font-size:5rem;
+  color: #2f1c49;
+}
+
+/*parrafo texto comun*/
+p {
+  font-family: 'Juana', serif;
+  font-weight: 150;
+  font-size:1rem;
+  text-align: left;
+  color: #2f1c49;
+  column-count: 2;
+  column-gap: 40px;
+  max-width: 1000px;
+  margin:0 auto;
+}
+
+/* Pues aqui va una parte para que las dos comlunas sean una cuando es muy pequeño pero no va*/
+
+@media(max-width: 500px) {
+  p {
+    column-count: 1;
+  }
+}
